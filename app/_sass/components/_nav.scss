@@ -1,0 +1,21 @@
+.nav li {
+  @extend .pd-meta;
+  border-right: 3px solid rgba(255,255,255,0); //Faked-out
+}
+
+.nav li a { color: $gray; }
+.nav li.active,
+.nav li:hover { border-right-color: $red; }
+.nav li a:hover {
+  background: none;
+  text-decoration: none;
+  color: $red;
+}
+.nav li.active a {
+  color: $red;
+  text-decoration: none;
+}
+.nav .glyphicon {
+  padding-left: 3px;
+  font-size: 80%;
+}

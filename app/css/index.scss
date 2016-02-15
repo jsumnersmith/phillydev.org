@@ -1,0 +1,17 @@
+---
+---
+// Main Compilation File.
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Notes:
+// (1) Any styles specific to this site are
+//     pre-fixed with a 'pd-' for PhillyDev
+// (2) All sizing is based on 'rem' units, which
+//     are derived from a html font-size of 10 for
+//     easier math. However, the body font-size is
+//     set to 18 or 1.8rem.
+
+@import 'globals/_sizes';
+@import 'globals/_colors';
+@import 'globals/_text';
+
+@import 'components/_nav';

@@ -1,0 +1,54 @@
+// Text Styles for Whole Site
+
+body
+{
+  color: $gray-dark;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+h1,
+h2, .pd-title-large,
+h3, .pd-title-medium,
+h4, .pd-title-small
+{
+  font-family: 'Work Sans', Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+h1 { font-size: 4rem; }
+
+h2, .pd-title-large
+{
+  font-size: 4rem;
+}
+
+h3, .pd-title-medium
+{
+  font-size: 3rem;
+}
+
+h4, .pd-title-small
+{
+  font-size: 2rem;
+}
+
+.pd-meta
+{
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+p
+{
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+}
+
+.pd-red-text { color: $red;}
+
+.pd-plain-link,
+.pd-plain-link:hover {
+  color: $gray-dark;
+  text-decoration: none;
+}
